@@ -1,0 +1,170 @@
+    /* Modo oscuro */
+    $--color-bg-dark: #141414;
+    $--color-bg-secondary-dark: #1E1E1E; 
+    $--color-hover-dark: #353535;
+    $--color-text-dark: #E0E0E0;
+    $--color-text-secondary-dark: #B3B3B3; 
+    $--color-accent-primary-dark: #BB86FC; 
+    $--color-accent-secondary-dark: #03DAC6;
+    $--color-error-dark: #CF6679; 
+    $--color-link-dark: #8AB4F8;
+
+
+    $--color-bg-light: #FFFFFF;
+    $--color-bg-secondary-light: #F5F5F5; 
+    $--color-hover-light: #c5c5c5;
+    $--color-text-light: #212121;
+    $--color-text-secondary-light: #757575; 
+    $--color-accent-primary-light: #6200EE; 
+    $--color-accent-secondary-light: #018786;
+    $--color-error-light: #B00020;
+    $--color-link-light: #1A73E8;
+
+    // Fuentes
+    $--font-family-base: 'Montserrat',sans-serif;
+    
+    $--font-size-base: 16px;
+    $--font-size-medium: 18px;
+    $--font-size-title: 26px;
+
+    $--font-weight-base: 400;
+    $--font-weight-title: 650;
+
+// Basic Start
+    .title{
+        color: $--color-accent-secondary-dark;
+        font: {
+            size: $--font-size-title;
+            weight: $--font-weight-title;
+        };
+    }
+
+    body {
+        background-color: $--color-bg-secondary-dark;
+        color: $--color-text-dark;
+        font: {
+            family: $--font-family-base;
+            size: $--font-size-base;
+            weight: $--font-weight-base;
+        };
+    }
+
+    header, footer{
+        background-color: $--color-bg-dark;
+        color: $--color-text-dark;
+        border-bottom: 1px solid $--color-text-secondary-dark;
+        border-top: 1px solid $--color-text-secondary-dark;
+    }
+
+    header li{
+        font-size: $--font-size-medium;
+    }
+
+    header a{
+        color: $--color-accent-primary-dark;
+        font-weight: bold;
+    }
+// Basic End
+
+// Table Start
+
+    table {
+        color: $--color-text-dark;
+    }
+
+    th, td {
+        border: 1px solid $--color-text-dark;
+    }
+
+    th {
+        background-color: $--color-text-secondary-dark;
+        color: $--color-bg-dark;
+    }
+
+    tr:nth-child(even) {
+        background-color: $--color-bg-dark;
+    }
+
+    tr:hover {
+        background-color: $--color-hover-dark;
+    }
+
+// Table End
+
+/* Select Start */
+    select {
+        background-color: $--color-bg-secondary-dark;
+        color: $--color-text-dark;
+    }
+
+    option {
+        background-color: $--color-bg-dark;
+        color: $--color-text-secondary-dark;
+    }
+
+    select:hover{
+        border: 1px solid $--color-accent-secondary-dark;
+    }
+
+    select:focus, option:focus{
+        border: 1px solid $--color-accent-primary-dark;
+        outline: none;
+    }
+/* Select End */
+
+/* Link start */
+    a{
+        color: $--color-link-dark;
+    }
+
+    a:hover{
+        color: $--color-accent-primary-dark;
+    }
+/* Link End */
+
+// Form Start
+
+form label {
+    color: $--color-text-secondary-dark;
+}
+
+form input {
+    background-color: $--color-bg-dark;
+    color: $--color-text-dark;
+    border: 1px solid $--color-hover-dark;
+}
+
+form input:focus {
+    outline: none;
+    border-color: $--color-accent-primary-dark;
+}
+
+.btn-primary {
+    background-color: $--color-accent-primary-dark;
+}
+
+.btn-secondary {
+    background-color: $--color-accent-secondary-dark;
+}
+
+.btn-secondary:hover, .btn-primary:hover {
+    background-color: $--color-hover-dark;
+    color: $--color-text-dark;
+}
+
+// Form End
+
+// Acordeón Start
+
+.accordion-header {
+    background-color: $--color-bg-dark;
+    color: $--color-text-dark;
+    border: 1px solid $--color-text-secondary-dark;
+}
+.accordion-content {
+    background-color: $--color-bg-dark;
+    color: $--color-text-dark;
+    border: 1px solid $--color-text-secondary-dark;
+}
+
+// Acordeón End

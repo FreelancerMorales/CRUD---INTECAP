@@ -1,0 +1,15 @@
+.accordion-item{
+    margin-top: 10px;
+}
+
+.accordion-header {
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 10px;
+    user-select: none;
+}
+
+.accordion-content {
+    padding: 15px;
+    border-top: none;
+}

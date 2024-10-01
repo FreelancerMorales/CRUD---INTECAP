@@ -1,0 +1,17 @@
+.accordion-item {
+  margin-top: 10px;
+}
+
+.accordion-header {
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.accordion-content {
+  padding: 15px;
+  border-top: none;
+}/*# sourceMappingURL=acordeon.css.map */

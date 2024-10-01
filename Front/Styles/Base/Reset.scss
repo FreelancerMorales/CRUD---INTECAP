@@ -1,0 +1,184 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* Estilos de texto */
+h1, h2 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Estilos generales */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0rem;
+    text-align: center;
+}
+
+/* Estilos de layout */
+.headerFalso{
+    display: inline-block;
+    margin-bottom: 10vh;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+    top: 0;
+    gap: 5px;
+}
+
+header > .div-Title{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-Title .title{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+header > nav{
+    flex: 2;
+}
+
+footer > p{
+    margin: 0;
+}
+
+nav > ul{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+    height: 100%;
+    gap: 5%;
+}
+
+nav li{
+    height: 100%;
+    min-width: 40%;
+    max-width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+}
+
+header a:hover{
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+main {
+    flex: 1;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* Estilos de botones */
+button {
+    border: none;
+    padding: 0.75rem 2rem;
+    margin: 2% 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+// Estilo Tablas
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 8px;
+}
+th {
+    text-align: left;
+}
+
+// Reset section
+
+
+// Form
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button + button {
+    margin-left: 10px;
+}
